@@ -13,3 +13,7 @@ services:
         image: joychou/jsc_mysql:latest
         ports:
             - "3306:3306"
+            
+        name: HashiCorp Vault
+        uses: hashicorp/vault-action@v3.0.0
+            
